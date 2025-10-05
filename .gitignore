@@ -1,0 +1,24 @@
+# Large data files
+*.csv.gz
+*.csv.zip
+player_activity.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Analysis outputs
+player_profiles_analyzed.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
