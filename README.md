@@ -63,6 +63,7 @@ Analysis of 9,476 GTA Online players over 3 months to understand the relationshi
 ### Prerequisites
 ```bash
 pip install pandas numpy matplotlib seaborn scipy jupyter
+```
 
 ## Copyright
 © [2025] [Colin J. Emmanuel]. All rights reserved.
