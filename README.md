@@ -38,18 +38,26 @@ Analysis of 9,476 GTA Online players over 3 months to understand the relationshi
 
 ## 📁 Dataset
 
-**Sample Size:** 9,476 players | **Time Period:** 3 months
+**Source:** Rockstar Games Datathon (Fall 2025) · **Sample Size:** 9,476 players · **Time Period:** 3 months
 
-### Files Analyzed:
-- `player_statistics.csv` - Player engagement metrics (246,137 rows)
-- `item_spend.csv` - Purchase transactions (155,750 rows)
-- `player_activity.csv` - Activity participation data (not included in repo due to size)
+The two core data files used in the analysis are included in this repo:
 
-### Data Fields:
-- Player demographics (platform, account_id)
-- Engagement metrics (playtime, days played, character rank)
-- Currency balances (earned vs paid)
-- Item purchases (type, category, amount spent)
+| File | Contents | Rows |
+|---|---|---|
+| `player_statistics.csv` | Player engagement metrics | 246,137 |
+| `item_spend.csv` | Purchase transactions | 155,750 |
+
+> `player_activity.csv` (activity participation) is **not included** due to size.
+>
+> The datathon's provided materials — the prompt, student instructions, and original dataset
+> archives — belong to Rockstar Games and are **not redistributed here**. This repo contains my own
+> analysis, plus the two data files above for reproducibility.
+
+### Data Fields
+- **Player demographics:** platform, account_id
+- **Engagement metrics:** playtime, days played, character rank
+- **Currency balances:** earned vs. paid
+- **Item purchases:** type, category, amount spent
 
 ## 🛠️ Tech Stack
 - **Python** - Core analysis
