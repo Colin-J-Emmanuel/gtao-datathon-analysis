@@ -22,3 +22,10 @@ Thumbs.db
 
 # VS Code
 .vscode/
+
+# Rockstar-provided datathon materials — kept locally, not redistributed
+Datathon.zip
+Rockstar_Games_Datathon_Dataset.zip
+Rockstar_Games_Datathon_Dataset/datathon_student_instructions.docx
+Rockstar_Games_Datathon_Dataset/prompt.HEIC
+Rockstar_Games_Datathon_Dataset/prompt.jpg
